@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XLDownloadProgressBar">
+        <attr name="xlDownload_frontColor" format="color" />
+        <attr name="xlDownload_behindColor" format="color" />
+        <attr name="xlDownload_backgroundColor" format="color" />
+        <attr name="xlDownload_waveLength" format="dimension" />
+        <attr name="xlDownload_waveHeight" format="dimension" />
+        <attr name="xlDownload_waveInitialHeight" format="dimension" />
+        <attr name="xlDownload_radius" format="dimension" />
+        <attr name="xlDownload_borderWidth" format="dimension" />
+        <attr name="xlDownload_textSize" format="dimension" />
+        <attr name="xlDownload_textColor" format="color" />
+        <attr name="xlDownload_progress" format="dimension" />
+        <attr name="xlDownload_maxProgress" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="horizontal_backgroundColor" format="color" />
+        <attr name="horizontal_backgroundRadius" format="dimension" />
+        <attr name="horizontal_borderWidth" format="dimension" />
+        <attr name="horizontal_textColor" format="color" />
+        <attr name="horizontal_textSize" format="dimension" />
+        <attr name="horizontal_textOffset" format="dimension" />
+        <attr name="horizontal_progress_unReachHeight" format="dimension" />
+        <attr name="horizontal_progress_unReachColor" format="color" />
+        <attr name="horizontal_progress_reachHeight" format="dimension" />
+        <attr name="horizontal_progress_reachColor" format="color" />
+        <attr name="horizontal_finishColor" format="color" />
+        <attr name="horizontal_progress" format="dimension" />
+        <attr name="horizontal_maxProgress" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="round_borderWidth" format="dimension" />
+        <attr name="round_textColor" format="color" />
+        <attr name="round_textSize" format="dimension" />
+        <attr name="round_progress_unReachHeight" format="dimension" />
+        <attr name="round_progress_unReachColor" format="color" />
+        <attr name="round_progress_reachHeight" format="dimension" />
+        <attr name="round_progress_reachColor" format="color" />
+        <attr name="round_finishColor" format="color" />
+        <attr name="round_progress" format="dimension" />
+        <attr name="round_maxProgress" format="dimension" />
+        <attr name="round_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
