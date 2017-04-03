@@ -1,10 +1,27 @@
 ZoroProgressBar
 ======
-#自定义View练习
+**自定义View练习**
 
 更新历史
 -----
     2017/4/3:RoundProgressBar(仿360安全卫士圆形进度条),HorizontalProgressBar（水平进度条）,RoundProgressBar（圆形进度条）
+
+使用依赖
+----
+在project下的build.gradle添加
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+在module下的build.gradle添加
+
+ 	dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
 
 自定义属性
 -----
