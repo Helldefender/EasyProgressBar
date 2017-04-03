@@ -20,7 +20,7 @@ ZoroProgressBar
 在module下的build.gradle添加
 
  	dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.Helldefender:ZoroProgressBar:v0.1'
 	}
 
 自定义属性
